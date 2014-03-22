@@ -11,6 +11,7 @@ $mobile-threshold: $field-width + 20px;
 
 $text-color: #776E65;
 $bright-text-color: #f9f6f2;
+$title-color: #F58025;
 
 $tile-color: #eee4da;
 $tile-gold-color: #edc22e;
@@ -44,6 +45,7 @@ h1.title {
   font-size: 80px;
   font-weight: bold;
   margin: 0;
+  color: $title-color;
   display: block;
   float: left;
 }
