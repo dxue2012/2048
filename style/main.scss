@@ -372,7 +372,7 @@ hr {
       // Set background
       background: $tile-color;
       background-image: nth($tile-production, $exponent);
-      background-size: 30px 30px;
+      background-size: 100% 100%;
       background-repeat: no-repeat;
       background-position: center;
       font-size: 0px;
