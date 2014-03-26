@@ -335,9 +335,9 @@ hr {
 
   $base: 2;
   $exponent: 1;
-  $limit: 11;
+  $limit: 12;
 
-  // Colors for all 11 states, false = no special color
+  // Colors for all 12 states, false = no special color
   $special-colors: #eee4da false, // 2
                    #ede0c8 false, // 4
                    #bb9bbf false, // 8
@@ -348,7 +348,8 @@ hr {
                    #fbeb76 true, // 256
                    #4da66d true, // 512
                    #89a9d7 true, // 1024
-                   #c76d5c true; // 2048
+                   #c76d5c true, // 2048
+                   #c76d5c true; // 4096
 
    $tile-production:  url('../img/01_anlian.jpg'), // 2
                       url('../img/02_leiyu.jpg'), // 4
@@ -360,7 +361,8 @@ hr {
                       url('../img/08_huochezhan.jpg'), // 256
                       url('../img/09_xiniu.jpg'), // 512
                       url('../img/10_12ren.jpg'), // 1024
-                      url('../img/11_imhh.jpg'); // 2048
+                      url('../img/11_imhh.jpg'), // 2048
+                      url('../img/12_ruanlingyu.jpg'); // 4096
 
   // Build tile colors
   @while $exponent <= $limit {
